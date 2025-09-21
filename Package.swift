@@ -10,7 +10,7 @@ let package = Package(
                 .library(name: "Emoji2", targets: ["Emoji2"]),],
     targets: [
         .target(name: "EmojiPack"),
-        .binaryTarget( name: "Emoji1", path: "../Emoji1.xcframework"),
-        .binaryTarget( name: "Emoji2", path: "../Emoji2.xcframework"),
+        .binaryTarget( name: "Emoji1", path: "Emoji1.xcframework"),
+        .binaryTarget( name: "Emoji2", path: "Emoji2.xcframework"),
     ]
 )
